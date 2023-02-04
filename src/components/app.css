@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0%;
+  scroll-behavior: smooth;
+}
+.tdl__textarea-createnote {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 10px;
+  border-radius: 9px;
+  box-shadow: 0 1px 5px #180a0a;
+  width: 28rem;
+  margin: 40px auto auto auto;
+}
+
+form.tdl__textarea-createnote_form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: var(--font-family);
+  resize: none;
+}
+
+form.tdl__textarea-createnote_form button {
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  outline: none;
+}
+
+form.tdl__textarea-createnote_form .tdl__button-div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}

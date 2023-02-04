@@ -1,0 +1,23 @@
+.tdl__note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #180a0a;
+  padding: 10px;
+  width: 240px;
+  margin: 30px;
+  float: left;
+  font-family: var(--font-family);
+  font-size: 1.1em;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.tdl__note button {
+  float: right;
+  margin-right: 10px;
+  color: grey;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  background: none;
+}

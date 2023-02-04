@@ -1,0 +1,19 @@
+.tdl__header {
+  padding: 2rem;
+}
+
+.tdl__header-brand {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+}
+
+.tdl__header-brand h1 {
+  font-family: var(--font-family-header);
+  color: #fcf9f9;
+  text-shadow: 0 2px 2px #180a0a;
+
+  cursor: pointer;
+}
