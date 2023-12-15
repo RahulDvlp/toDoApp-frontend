@@ -6,9 +6,10 @@ const Header = () => {
   return (
     <div className="tdl__header">
       <div className="tdl__header-brand">
+        
         <h1>
           <NotesIcon />
-          Lipsum
+          Mjay DS
         </h1>
       </div>
     </div>
