@@ -41,7 +41,7 @@ const App = () => {
           <div className="tdl__textarea-createnote">
             <form className="tdl__textarea-createnote_form">
               <textarea
-                placeholder="Add ToDo..."
+                placeholder="Take note..."
                 value={text}
                 onChange={(e) => setText(e.target.value)}
                 onClick={state}
